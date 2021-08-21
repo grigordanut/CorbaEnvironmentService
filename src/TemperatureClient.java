@@ -12,8 +12,7 @@ public class TemperatureClient {
 
 	public static void main(String[] args) {
 		
-		ORB orb = ORB.init(args, null);
-		
+		ORB orb = ORB.init(args, null);		
 		
 		//read the remote object ref from file
 		

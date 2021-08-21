@@ -11,7 +11,7 @@ public class TemperatureServer {
 		//getting reference to ORB
 		ORB orb = ORB.init(args, null);
 		
-		//initialize the ShowTemperatureServant
+		//initialize the TemperatureServant
 		TemperatureServant servant = new TemperatureServant();
 		
 		//associate/connect servant to ORB
