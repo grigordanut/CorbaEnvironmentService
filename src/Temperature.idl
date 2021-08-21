@@ -1,0 +1,10 @@
+module TemperatureApp{
+
+	interface Temperature {
+
+		string showTemperature();
+		string setTemperature();
+
+	};
+
+};
